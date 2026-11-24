@@ -23,3 +23,12 @@
   flex: 3;
   border-color: #333;
 }
+
+.accordeon > details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.accordeon > details > summary::marker,
+.accordeon > details > summary::-webkit-details-marker {
+  display: none;
+}

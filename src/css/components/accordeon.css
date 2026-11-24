@@ -17,3 +17,8 @@
   width: 100%;
   display: block;
 }
+
+.accordeon details[open] {
+  flex: 3;
+  border-color: #333;
+}

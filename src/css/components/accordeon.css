@@ -1,3 +1,20 @@
 /**
 * Accordeon
 */
+
+.accordeon {
+  display: flex;
+  gap: 8px;
+}
+
+.accordeon details {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordeon img {
+  width: 100%;
+  display: block;
+}
